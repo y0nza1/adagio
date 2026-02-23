@@ -3,20 +3,27 @@
 
 [window] 
 
-opacity = 0.9
+opacity = 0.8
 
 padding.x = 10
 padding.y = 10
 
 decorations = "Full"
-decorations_theme_variant = "Light" # "Dark"
+decorations_theme_variant = "Dark" # "Light"
+
+dynamic_title = true
 
 [font]
 
 # Font can be found here: https://www.programmingfonts.org/#fantasque-sans
-normal.family = "FantasqueSansM Nerd Font Propo"
-bold.family = "FantasqueSansM Nerd Font Propo"
-italic.family = "FantasqueSansM Nerd Font Propo"
-bold_italic.family = "FantasqueSansM Nerd Font Propo"
+normal.family = "FantasqueSansM Nerd Font Mono"
+bold.family = "FantasqueSansM Nerd Font Mono"
+italic.family = "FantasqueSansM Nerd Font Mono"
+bold_italic.family = "FantasqueSansM Nerd Font Mono"
 
 size = 13.0
+
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/ayu_dark.toml"
+]
